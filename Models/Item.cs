@@ -29,7 +29,7 @@ namespace flow_control.Models
             get => _registerDate;
         }
 
-        public string About { get; set; }
+        public string? About { get; set; }
 
     }
 }

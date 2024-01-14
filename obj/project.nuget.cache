@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fvqgvUY8CcSt8XHdasry+mODHGWN4Hxp2LVPFAfiinGdGo6A7GWJV42NYB+s+gu/1/VWKGsr1/knsXXq8uzFVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guima\\flow-control\\flow-control.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guima\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

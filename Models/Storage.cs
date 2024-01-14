@@ -17,31 +17,23 @@ namespace flow_control.Models
 
         public string Name { get; set;}
 
-        private readonly List<object> _storedItems = [];
-
-        public List<object> StoredItems
-        {
-            get
-            {
-                return _storedItems;
-            }
-        }
+        public List<object> StoredItems { get; set; }
 
         public void AddItem(object value)
         {
-            _storedItems.Add(value);
+            StoredItems.Add(value);
         }
 
         public void RemoveItem(object value)
         {
-            _storedItems.Remove(value);
+            StoredItems.Remove(value);
         }
 
         public void ShowItems()
         {
-            for (int i = 0; i < _storedItems.Count; i++)
+            for (int i = 0; i < StoredItems.Count; i++)
             {
-                Console.WriteLine(_storedItems[i]);
+                Console.WriteLine(StoredItems[i]);
             }
         }
 
